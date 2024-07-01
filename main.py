@@ -59,7 +59,7 @@ def siparis_al(menu: Menu, musteri: Musteri) -> float:
     return toplam_fiyat
 
 def main() -> None:
-    #veri tabanına bağlanıp müşteri tablosunu oluşturuyoruz
+    #veri tabanına bağlanıp müşteri tablosunu oluşturuyoruz 
     db, cursor = veritabani_kur('siparisler')
     tablo_olustur("Musteri", cursor, "isim TEXT, fiyat REAL")
 
